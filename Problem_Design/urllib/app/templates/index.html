@@ -1,0 +1,12 @@
+<!-- >Hint: flag locates at /flag<!-->
+<!doctype html>
+<title>Another SSRF</title>
+<h1>You CAN'T pass me</h1>
+<body>
+    <br>To get the content, try <a href="/?url=http://www.example.com">this</a></br>
+
+    <br>Content:</br>
+
+    <iframe srcdoc="{{content}}" width="1000" height="750">
+    </iframe>
+</body>
