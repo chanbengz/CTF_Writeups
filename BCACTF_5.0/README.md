@@ -634,3 +634,23 @@ PDF隐藏文字内容，表面看不出来，直接选中复制就出来了。
 > There are some unique differences in some of the lines...
 
 找出现最多的一行作为基准，然后稳定去重(相对顺序不变)，找相同位置的不同字符挑出来，最后拼接起来就是flag。
+
+```python
+lines = []
+file = open('chalkboardgag.txt', 'r')
+base = file[0]
+for line in file:
+    if line != base:
+        lines.append(line)
+
+def get_char(line):
+    assert len(line) == len(base)
+    for i in range(len(line)):
+        if base[i] != line[i]:
+            return line[i]
+
+flag = ''
+for line in lines:
+    flag += get_char(line)
+print(flag)
+```
