@@ -12,7 +12,6 @@ This repo collects the writeups that I've participated, sorted by latest update
 ### Categories
 
 Single problem, fetched from random contests, used for practice.
-
 + [Crypto](./Categories/Crypto)
 + [Misc](./Categories/Misc)
 + [PWN](./Categories/PWN)
@@ -21,9 +20,13 @@ Single problem, fetched from random contests, used for practice.
 
 ### 2024
 
-[17th CISCN](./CISCN_2024初赛_COMPASS)
+[waniCTF 2024](./waniCTF_2024) Japanese CTF, interesting.
 
-[3th College Cybersecurity Contest of Guangdong Province](./2024广东省省赛.pdf)
+[BCACTF 5.0](./BCACTF_5.0) Famous online contest, like it.
+
+[17th CISCN](./CISCN_2024初赛_COMPASS) National official contest, sucks too.
+
+[3th College Cybersecurity Contest of Guangdong Province](./2024广东省省赛.pdf) Province official contest, but the experience sucks.
 
 [COMPASS Team Qualifier 2024](./COMPASS_Team_Qualifier_Spring_2024) But I'm already in, so play it for run.
 
@@ -31,8 +34,14 @@ Single problem, fetched from random contests, used for practice.
 
 [Mevsec 2023](./MevSec2023) Blockchain beginner
 
+[NewstarCTF 2023](/dev/null) Forgot to writeup :(
+
 ### 2022
+
+The year where the journey begins. No contest, no writeup, only practice. The past is long gone.
 
 ## Penetration Notes
 
-SUSTech internal gym reservation system, unauthorized access vulnerability, submitted to EDUSrc. [link](./SUSTechReservation_src)
+### SUSTech Reservation Unauthorized Access
+
+Internal gym reservation system of Southern Univeristy of Science and Technology (SUSTech), unauthorized access vulnerability, submitted to [EDUSRC of China](https://src.sjtu.edu.cn/). Report [here](./SUSTechReservation_src)
